@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Youtube Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Youtube-Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Triangle" fill="#B31B1B" transform="translate(26.000000, 25.000000) rotate(90.000000) translate(-26.000000, -25.000000) " points="26 20.5 31 29.5 21 29.5"></polygon>
+        <path d="M15.7405463,13.9836972 C11.9781003,14.1232474 8.99999753,17.2138565 8.99999753,20.9788894 L9,28.9324879 C9,32.6916244 11.9691042,35.7796019 15.7253467,35.9270979 C18.8169066,36.04849 21.9084552,36.1091859 25,36.1091859 C28.091543,36.1091859 31.1830899,36.0484901 34.274648,35.9270981 C38.0308943,35.7796066 41.000002,32.691627 41.000002,28.9324864 L41,20.9788871 C41,17.2138534 38.0218968,14.1232446 34.2594506,13.983697 C31.532073,13.8825379 28.4454256,13.8319147 25,13.8319147 C21.5545731,13.8319147 18.4679247,13.8825379 15.7405463,13.9836972 Z" id="Rectangle" stroke="#B31B1B" stroke-width="2"></path>
+    </g>
+</svg>

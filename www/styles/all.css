@@ -1,0 +1,623 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Cooper Hewitt", sans-serif;
+  font-size: 100%;
+  background-color: white;
+  margin: 0px 50px;
+}
+
+p {
+  font-weight: 200;
+}
+
+
+header {
+  width: 100%;
+  display: block;
+  margin: auto;
+  border-top: solid;
+  border-bottom: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+
+header p {
+  /*margin-top: -1.5em;*/
+  font-family: "Cooper Hewitt", sans-serif;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* nav styles */
+
+nav {
+background-color: #B31B1B;
+}
+nav a {
+  text-decoration: none;
+}
+nav {
+  opacity: 1;
+  font-family: "Cooper Hewitt", sans-serif;
+  width: 100%;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  background-color: #b31b1b;
+  color: white;
+}
+
+
+nav ul li a:focus, nav ul li a:hover, nav ul li a:active {
+    font-weight: bold;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav ul li {
+  font-size: 1.2em;
+  flex: none;
+
+}
+nav ul li a {
+  display: block;
+  padding: .8em 1em;
+}
+
+nav .nav-dropdown {
+  position: absolute;
+  width: 125px;
+  display: flex;
+  flex-direction: column;
+  background-color: #B31B1B;
+  border: solid;
+  border-top: none;
+  border-width: 2px;
+  padding: 0;
+}
+
+nav .nav-dropdown li a {
+  border-left-width: 0px;
+}
+
+
+
+
+.special{
+    background-color: #B31B1B;
+    float: left;
+    padding-right: 10px;
+}
+
+.special img {
+    width: 20px;
+    height: 20px;
+}
+/* rest of nav bar*/
+.menu-icon > .line {
+    background-color: white;
+    height: 2px;
+    display: block;
+    margin: 4.5px 0px;
+}
+.menu-icon > .line + .line {
+    margin-top: 5px;
+}
+
+/* headers */
+h1, h2, h3, h4, h5 {
+  font-family: "Cooper Hewitt", sans-serif;
+}
+
+h1 {
+  /*font-size: 1.7em;*/
+  font-weight: 400;
+  margin: 10px auto 0px auto;
+  font-family: "Cooper Hewitt", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.5em;
+  font-family: "Cooper Hewitt", sans-serif;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+#motto {
+  border: none;
+  font-weight: 200;
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+}
+
+h5 {
+    padding-left: 15px;
+}
+
+/* footer styles */
+footer {
+    color: #B31B1B;
+    font-family: "Cooper Hewitt", sans-serif;
+    font-size: .7em;
+    text-align: center;
+    float: inherit;
+    display: block;
+    flex-grow: 1;
+    margin-top: 10px;
+}
+
+footer a {
+   text-decoration: none;
+}
+
+table {
+  width:100%;
+  display: inline-flex;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+    background-color: #B31B1B;
+    color: white;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color:#ddd;
+}
+/* td:hover {
+  color: #555;
+} */
+
+table {
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+     0px 5px 10px rgba(0,0,0,0.05),
+     0px 10px 20px rgba(0,0,0,0.05),
+     0px 10px 20px rgba(0,0,0,0.05);
+}
+
+div.gallery {
+  margin: 30px auto;
+  border: 1px solid #ccc;
+  display: block;
+  width: 350px;
+}
+
+/* div.gallery:hover {
+  border: 1px solid #777;
+} */
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  height: 600px;
+}
+
+/* Form */
+#Form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#Form div {
+  margin-bottom: 10px;
+}
+
+#Form label {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+}
+
+#Form input {
+  width: 200px;
+  padding: 3px;
+  margin-left: 10px;
+}
+
+#Form button.submit {
+  font-family: "Cooper Hewitt", sans-serif;
+  margin: 0px auto 0px auto;
+  width: 150px;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #B31B1B;
+  color: white;
+}
+
+#Form span {
+  color: #B31B1B;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.mainContent {
+  display: block;
+  margin: auto;
+  width: 70%;
+  margin-top: 60px;
+  border: solid;
+  border-width: 2px;
+  padding: 20px;
+}
+
+.downCaret {
+  font-size: 0.8em;
+  height: 0.0009em;
+  flex: none;
+  display: block;
+  margin-left: 20px;
+}
+
+/* Index page */
+.slideshow {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+
+.slideshow h2 {
+  text-align: center;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+#slideshowImage {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+.slideshowImageHolder {
+  margin: 0px auto 0px auto;
+  justify-content: center;
+}
+
+.slideshowButtonHolder {
+  position: relative;
+  height: 35px;
+}
+
+.slideshowNextButton {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  padding-top: 10px;
+  border: 1px black solid;
+  border-radius: 5px;
+  /*position: absolute;*/
+  right: 0px;
+  cursor: pointer;
+  background-color: #B31B1B;
+  color: white;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+cite {
+  display: block;
+  margin: 5px auto;
+  font-size: 0.7em;
+
+}
+
+
+cite.citeevents {
+  display: inline;
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 1.2em;
+  font-family: "Cooper Hewitt", sans-serif;
+}
+
+div.citeevents {
+  margin: 10px auto;
+}
+
+cite.citeevents a {
+  color: #B31B1B;
+  font-family: "Cooper Hewitt", sans-serif;
+}
+
+p.citations {
+  font-size: 1.2em;
+}
+
+.cellShow{
+    display: none;
+}
+
+/* Members in About Page */
+.teams {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.teams li {
+  list-style: none;
+  padding: 0;
+  padding-right: 30px;
+}
+
+.teams ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Contact page */
+.eboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.eboard p {
+  max-width: 200px;
+  margin: 2px;
+}
+
+.eboard img {
+  border-radius: 50%;
+  height: auto;
+  width: auto;
+  overflow: hidden;
+  background-position: center;
+  margin-bottom: 15px;
+}
+
+.eboardperson {
+  margin: 20px;
+}
+
+a:link {
+  color: #B31B1B;
+}
+
+/* mobile phone  */
+@media screen and (max-width: 450px) {
+
+  body {
+    margin: 0px;
+  }
+
+  p {
+    margin: 25px;
+  }
+
+  .mainContent {
+    margin: auto;
+    margin-top: 10px;
+    width: 90%;
+    border: none;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .cellShow{
+      display: inline;
+  }
+
+  .cellHide{
+      display: none;
+  }
+
+  .middle .footer{
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    display: inline-flex;
+    /* display: flex; */
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+
+  footer {
+      color: #B31B1B;
+      font-family: "Cooper Hewitt", sans-serif;
+      font-size: .7em;
+      text-align: center;
+      float: none;
+      /*display: inline;*/
+      flex-grow: 1;
+      padding-top: 5px;
+      width: 100%;
+  }
+
+  #motto {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+  }
+
+  #Form label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+  }
+
+  #Form input {
+    padding: 3px;
+    font-size: 0.8em;
+    width: 200px;
+  }
+
+  #Form textarea {
+    padding: 1px;
+    border: 1px lightgray solid;
+    width: 100px;
+  }
+
+  #Form select {
+      float:right;
+      /* display: inline-block;
+      text-align: left; */
+      width: 48px;
+  }
+
+  .eboardperson {
+    display: block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .gallery {
+    width: 100%;
+  }
+
+}
+/* tablet */
+@media screen and (min-width: 450px) and (max-width: 900px) {
+
+  .cellHide{
+      display: none;
+  }
+
+  .cellShow{
+      display: inline;
+  }
+
+  #Form label {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+  }
+
+  #Form input {
+    padding: 3px;
+    font-size: 0.8em;
+    width: 200px;
+  }
+
+
+  #Form textarea {
+    padding: 1px;
+    border: 1px lightgray solid;
+    width: 98px;
+  }
+
+  #Form select {
+    float: inherit;
+    width: 100px;
+  }
+
+
+
+  .eboardperson {
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .slideshow {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  #motto {
+    border: none;
+    font-weight: 100;
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .mainContent {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+.imgformat {
+
+  flex: 0 0 65%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.wrapper {
+  display: inline-flex;
+  /* display: flex; */
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.titleHolder {
+  background-color: #B31B1B;
+}
+
+.titleHolder h1 {
+  margin-top: 0px;
+  padding-top: 5px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+}

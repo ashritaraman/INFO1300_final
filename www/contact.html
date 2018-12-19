@@ -1,0 +1,142 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Cornell Table Tennis Club</title>
+
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+
+  <script src="scripts/validation.js" type="text/javascript"></script>
+  <script type="text/javascript" src="scripts/mainPage.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles/all.css"/>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="images/pingpong.png"/>
+  <link rel="shortcut icon" type="image/png" href="https://www.clipartmax.com/middle/m2i8H7i8m2m2A0b1_logo-tennis-de-table/"/>
+</head>
+
+<body>
+    <header>
+        <div class = "titleHolder">
+          <nav>
+            <ul>
+              <li> <a  href="index.html"><div class = "special">
+                <img src="images/pingpong.png" alt="PingPong">
+              </div>Cornell Table Tennis</a>
+              </li>
+              <li class = "cellHide"><a href="./about.html">About</a></li>
+              <li class = "cellHide"><a href="./event.html">Events</a></li>
+              <li class = "cellHide"><a href="./contact.html">Contact</a></li>
+              <li class="navItem cellShow">
+                <a href="#" id="NavItem">
+                <div class="menu-icon">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+                </div>
+                <span class="downCaret"></span></a>
+                <ul id="Dropdown" class="hidden nav-dropdown" >
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./event.html">Events</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+    </header>
+
+  <div class=mainContent>
+    <h1> Contact </h1>
+
+    <h2> Club Email </h2>
+    <a href="mailto:cornelluniversityttc@gmail.com">cornelluniversityttc@gmail.com</a>
+
+    <h2> E-Board Members </h2>
+    <!-- All photos on this page are from each individual's Facebook page -->
+    <div class="eboard">
+      <div class="eboardperson">
+        <img src=./images/xuefei.jpg alt="Xuefei's Photo">
+        <p><strong>President</strong></p>
+        <p>Xuefei Kuang</p>
+        <p><a href="mailto:xk36@cornell.edu">xk36@cornell.edu</a></p>
+      </div>
+      <div class="eboardperson">
+        <img src=./images/shenyu.jpg alt="Shenyu's Photo">
+        <p><strong>Vice President</strong></p>
+        <p>Shenyu Liu</p>
+        <p><a href="mailto:sl895@cornell.edu">sl895@cornell.edu</a></p>
+      </div>
+      <div class="eboardperson">
+        <img src=./images/carol.jpg alt="Carol's Photo">
+        <p><strong>Treasurer</strong></p>
+        <p>Carol Wang</p>
+        <p><a href="mailto:yw572@cornell.edu">yw572@cornell.edu</a></p>
+      </div>
+      <div class="eboardperson">
+        <img src=./images/alex.jpg alt="Alex's Photo">
+        <p><strong>Secretary</strong></p>
+        <p>Alex Vompe</p>
+        <p><a href="mailto:adv26@cornell.edu">adv26@cornell.edu</a></p>
+      </div>
+    </div>
+
+    <h2>Subscribe to our Email List-Serv</h2>
+    <p>We will send you emails of any updates we have after you sign up below. We also constantly update our Facebook group, so feel free to follow us by clicking the Facebook icon on the bottom of the page.</p>
+    <form id="Form" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" method="post" novalidate>
+      <div class="">
+        <label for="userName" class="title">Name: </label>
+        <input type="text" id="userName" name="userName" size="30" maxlength="100" placeholder="Your Name" required />
+        <span id=userNameError class="hidden">*Name is required*</span>
+      </div>
+      <div>
+        <label for="userEmail" class="title">Email: </label>
+        <input type="email" id="userEmail" name="userEmail" placeholder="Your Email" required />
+        <span id=userEmailError class="hidden">*A valid email of the format xxxxx@xxx.com is required*</span>
+      </div>
+      <div>
+        <button type="submit" class="submit">Submit</button>
+      </div>
+    </form>
+
+  </div>
+  <footer>
+    <!--Icons created by Michelle Wang with Sketch -->
+    <a href="mailto:cornelluniversityttc@gmail.com"><img src="./images/EmailIcon.svg" alt="Email"></a>
+    <a href="https://www.facebook.com/groups/196219997114788/" target="_blank"><img src="./images/FacebookIcon.svg" alt="Facebook"></a>
+    <a href="http://www.youtube.com/channel/UCpJCDYiIaB6mV0ZNLGICpAg/feed?filter=2" target="_blank"><img src="./images/YoutubeIcon.svg" alt="Youtube"></a>
+    <p>All content copyright &copy; 2018, Cornell CS 1300.</p>
+    <p>Icons sourced by Michelle Wang</p>
+
+    <p> Image Citations: &nbsp;
+
+      <!--- Image taken from following site: https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/38232079_2113944538893663_7260779536877355008_n.jpg?_nc_cat=107&_nc_ht=scontent-lga3-1.xx&oh=589838b184c096aba494d34aaa153d44&oe=5C70D43A --->
+      <a href = "https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-1/38232079_2113944538893663_7260779536877355008_n.jpg?_nc_cat=107&_nc_ht=scontent-lga3-1.xx&oh=589838b184c096aba494d34aaa153d44&oe=5C70D43A" target="_blank">
+        Source 1 &nbsp;
+      </a>
+
+      <!--- Image taken from following site: https://www.facebook.com/photo.php?fbid=394184467691962&set=a.161110920999319&type=3&theater--->
+      <a href = "https://www.facebook.com/photo.php?fbid=394184467691962&set=a.161110920999319&type=3&theater" target="_blank">
+        Source 2 &nbsp;
+      </a>
+
+      <!--- Image taken from following site: --->
+      <a href = "" target="_blank">
+        Source 3 &nbsp;
+      </a>
+
+      <!--- Image taken from following site: https://www.facebook.com/photo.php?fbid=2112629338789003&set=a.151704974881459&type=3&theater --->
+      <a href = "https://www.facebook.com/photo.php?fbid=2112629338789003&set=a.151704974881459&type=3&theater" target="_blank">
+        Source 4 &nbsp;
+      </a>
+    </p>
+
+  </footer>
+
+</body>
+
+
+</html>
